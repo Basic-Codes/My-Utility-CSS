@@ -1,0 +1,50 @@
+.hide-sm {
+    display: none;
+}
+.grid-2,
+.grid-3,
+.grid-4 {
+    grid-template-columns: 1fr;
+}
+
+/* ===================================== Text Styles =================================== */
+.txt-xl {
+    font-size: 3rem;
+}
+.txt-l {
+    font-size: 2rem;
+}
+.txt-m {
+    font-size: 1.5rem;
+}
+.txt-lead {
+    font-size: 1rem;
+}
+
+/* ===================================== Navbar =================================== */
+.nav {
+    display: block;
+    text-align: center;
+}
+.nav h1 {
+    margin-bottom: 0.6rem;
+}
+.nav ul {
+    text-align: center;
+    justify-content: center;
+}
+
+@media(max-height: 568px){
+    .txt-xl {
+        font-size: 2rem;
+    }
+    .txt-l {
+        font-size: 1rem;
+    }
+    .txt-m {
+        font-size: 0.7rem;
+    }
+    .txt-lead {
+        font-size: 0.5rem;
+    }
+}
